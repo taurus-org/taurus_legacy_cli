@@ -32,7 +32,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    description="taurus-legacy-cli adds back the taurus* scripts removed in taurus 4.5",
+    description="taurus-legacy-cli adds back the taurus* scripts removed in taurus 4.5.4",
     install_requires=requirements,
     license="LGPLv3+",
     long_description=readme + '\n\n' + history,
