@@ -17,6 +17,26 @@ setup_requirements = [ ]
 
 test_requirements = [ ]
 
+console_scripts = [
+    'taurustestsuite = taurus.test.testsuite:testsuite_cmd',
+    'taurusconfigbrowser = taurus_legacy_cli:taurusconfigeditor',
+    'taurusplot = taurus_legacy_cli:taurusplot',
+    'taurustrend = taurus_legacy_cli:taurustrend',
+    'taurusform = taurus_legacy_cli:taurusFormMain',
+    'tauruspanel = taurus_legacy_cli:TaurusPanelMain',
+    'taurusdevicepanel = taurus_legacy_cli:TaurusDevicePanelMain',
+    'taurusgui = taurus_legacy_cli:taurusgui',
+    'taurusdesigner = taurus_legacy_cli:taurusdesigner',
+    'taurusimage = taurus_legacy_cli:taurusImageDlgMain',
+    'taurustrend2d = taurus_legacy_cli:taurusTrend2DMain',
+    'taurusiconcatalog = taurus.qt.qtgui.icon.catalog:icons_cmd',
+    'taurusdemo = taurus_legacy_cli:taurusdemo',
+]
+
+entry_points = {
+    'console_scripts': console_scripts,
+}
+
 setup(
     author="Taurus Community",
     author_email='tauruslib-devel@lists.sourceforge.net',
@@ -34,6 +54,7 @@ setup(
     ],
     description="taurus-legacy-cli adds back the taurus* scripts removed in taurus 4.5.4",
     install_requires=requirements,
+    entry_points=entry_points,
     license="LGPLv3+",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
