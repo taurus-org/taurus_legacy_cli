@@ -5,3 +5,5 @@
 __author__ = """Taurus Community"""
 __email__ = 'tauruslib-devel@lists.sourceforge.net'
 __version__ = '0.1.0'
+
+from .taurus_legacy_cli import *
