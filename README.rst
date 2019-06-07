@@ -20,11 +20,10 @@ taurus-legacy-cli adds back the taurus* scripts removed in taurus_ 4.5.4
 Taurus v4.5.4 `replaced the old console-scripts`_ (`taurusform`, `taurusdemo`,...)
 by subcommands to a new `taurus` command which provides the same functionality.
 
-While the CLI scripts are not strictly considered API, this change may break
-some scripts that relied on them (e.g. some automation procedures, etc.).
+While the CLI scripts are not strictly considered API, this change may break 
+some scripts that relly on them (e.g. some automation procedures, etc.).
 
-This project re-adds the old scripts to facilitate a smoother transition in those
-cases.
+This project re-adds the old scripts to provide backwards-compatibility in those cases.
 
 .. attention:: This is just a plugin to smooth the transition, but the old scripts should
    be considered deprecated and be replaced ASAP by calls to the new taurus CLI
