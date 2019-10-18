@@ -9,7 +9,6 @@ Welcome to taurus-legacy-cli's documentation!
    installation
    usage
    modules
-   history
 
 Indices and tables
 ==================
