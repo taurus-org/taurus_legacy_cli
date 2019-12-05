@@ -33,7 +33,7 @@ This project re-adds the old scripts to provide backwards-compatibility in those
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `taurus-org/cookiecutter-taurus`_ template
+This package was created with Cookiecutter_ and the `taurus-org/cookiecutter-tauruspackage`_ template
 (based on `audreyr/cookiecutter-pypackage`_).
 
 .. _taurus: https://taurus-scada.org
